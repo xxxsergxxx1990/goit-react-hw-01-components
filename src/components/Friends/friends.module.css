@@ -1,12 +1,4 @@
-.friends {
-    display: flex;
-    align-items: center;
-    margin-top: 30px;
-    flex-direction: column;
-    width: 370px;
-    margin-left: auto;
-    margin-right: auto;
-  }
+
   
   .friends__list {
     display: flex;

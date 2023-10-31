@@ -2,11 +2,13 @@ import css from './friends.module.css'
 import PropTypes from 'prop-types'
 
 
+
+
 export const FriendsList = ({ friends }) => {
-    // console.log(friends);
+  
   
     return (
-      <div className={css.friends}>
+      
         <ul className={css.friends__list}>
           {friends.map(({ avatar, name, isOnline, id }) => (
             <li className={css.friends__item} key={id}>
@@ -18,7 +20,7 @@ export const FriendsList = ({ friends }) => {
             </li>
           ))}
         </ul>
-      </div>
+     
     );
   };
   
