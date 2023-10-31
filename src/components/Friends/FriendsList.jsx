@@ -1,4 +1,4 @@
-import css from './friends.module.css'
+import css from './friendsList.module.css'
 import PropTypes from 'prop-types'
 
 
